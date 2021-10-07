@@ -41,6 +41,6 @@ Les captures d'écrans du ping et de la conn. ssh depuis la VM vers le router so
 commande:
 #ansible all -i 10.0.0.1, -c ansible.netcommon.network_cli -u <username> -k -m cisco.ios.ios_facts -e ansible_network_os=cisco.ios.ios
 
-Le résultat de la commande est trop grand pour en faire une captuire d'écran complète. 
+Le résultat de la commande est trop grand pour en faire une capture d'écran complète. 
 Tout l'output de la commande se trouve dans le fichier resultat.txt
 
