@@ -29,7 +29,7 @@ coté client (ubuntu):
     et ajouter les lignes suivantes:
 
 Host 10.0.0.1
-  KexAlgorythms +diffie-hellman-group1-sha1
+  KexAlgorithms +diffie-hellman-group1-sha1
   Ciphers <cypher compatible avec le système>
 
 Pour voir les ciphers compatible avec le système taper la commande 
